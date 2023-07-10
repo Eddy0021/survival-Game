@@ -4,13 +4,13 @@ import StartPage from '../views/StartPage.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/survival-Game',
     name: 'home',
     props: (route) => ({ score: route.query.score }),
     component: StartPage
   },
   {
-    path: '/game',
+    path: '/survival-Game/game',
     name: 'game',
     component: HomeView
   },
